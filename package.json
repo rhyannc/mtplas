@@ -52,13 +52,6 @@
           "@vitejs/plugin-react-swc": "^3.10.2",
           "vite": "6.3.5"
       },
-      "scripts": {
-          "dev": "vite",
-          {
-  "builds": [
-    { "src": "package.json", "use": "@vercel/static-build" }
-  ],
-  "outputDirectory": "build"
-}
+      "scripts": { "dev": "vite", "build": "vite build" }
       }
   }
